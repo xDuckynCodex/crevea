@@ -151,7 +151,10 @@ i {
         display: flex;
         flex-wrap: wrap;
     }
+    .text-warning {
+        color: #ffc107 !important;
     }
+}
 
 /* Responsive >= 992px to apply CSS*/
 @media screen and (min-width: 992px) {
