@@ -77,6 +77,15 @@ i {
     width:100%;
 }
 
+.news-post-heading {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.news-post-heading h4 {
+    text-align: center;
+}
+
 /* CONTACT */
 .form-group {
     max-width: 100%;
