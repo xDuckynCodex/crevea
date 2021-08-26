@@ -1,0 +1,170 @@
+
+/* everywhere */
+.header {
+    margin-bottom: 20px;
+}
+
+.line-begin {
+    display: inline-block;
+    width: 5%;
+    height: 5px;
+    margin:  5px;
+}
+
+/* Navbar */
+i {
+    color: #007bff;
+}
+.navbar-brand {
+    width: 45%;
+    margin: auto!important;
+}
+
+/* About us */
+.about-us {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ceo-img {
+    width: inherit;
+}
+
+/* Out business  */
+.our-business {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+.our-business-text-content {
+    display: flex;
+}
+
+.our-business-text-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.our-business-text {
+    width: 40%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.our-business-light {
+    background-color: #fff;
+}
+
+.our-business-head {
+    margin: 0 0 0 30px;
+}
+/* NEWS */
+.news-post-content {
+    margin: 10px 0 ;
+}
+
+.news-post-maincontent {
+    border: 1px solid #999;
+    
+}
+
+.small-news-img {
+    width:100%;
+}
+
+/* CONTACT */
+.form-group {
+    max-width: 100%;
+}
+
+.form-group input {
+    width: 100%;
+}
+
+.contact-form {
+    padding: 10px;
+}
+
+/* FOOTER */
+.footer {
+    margin: 50px 0 0 0;
+    background-color: #272727;
+    color: white;
+}
+
+.footer-content {
+    padding: 30px 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-getnews-btn {
+    width: 25%;
+    border:none !important;
+    background-color: #f8f9fa;
+}
+
+.footer-getnews-btn:hover {
+    background-color: #007bff;
+}
+
+.footer-getnews-input {
+    width: 70%;
+    background-color: transparent;
+    border: none !important;
+}
+
+.footer-getnews-form {
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+}
+
+.footer-line {
+    background-color: #fff;
+}
+
+/* Responsive >= 768px to apply CSS */
+@media screen and (min-width: 768px) {
+    /* Navbar */
+    i {
+        color: #fff !important;
+    }
+    .bg-light {
+        background-color: #007bff!important;
+    }
+    .brand-link {
+        color: #fff !important;
+    }
+    .navbar-brand {
+        width: 30%!important;
+    }
+    /* news */
+    .news-top {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    }
+
+/* Responsive >= 992px to apply CSS*/
+@media screen and (min-width: 992px) {
+    /* Navbar */
+    .navbar-brand {
+        width: 50% !important;
+    }
+    /* our business */
+    .our-business-text {
+        width: 40%;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-2%);
+    }
+}
